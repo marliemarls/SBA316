@@ -5,9 +5,6 @@ newHeader.addEventListener("click", (event)=>{
     newHeader.style.color = "cornflowerblue";
 });
 
-const photosDiv = document.getElementById("photos-div");
-photosDiv.innerText = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...";
-
 
 
 
