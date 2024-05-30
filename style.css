@@ -6,26 +6,46 @@ h1{
     justify-content: center;
 }
 
-#blog-div{
-    display: flex;
-    flex-direction: row;
-    margin: 5px;
-    padding: 5px;
-    border-bottom: solid black 1pt;
-}
 .blog-pic{
+    display: flex;
+    justify-content: center;
     height: 60%;
     width: 10%;
     border: solid black 1pt;
     border-radius: 50%;
+    margin: auto;
+    padding: auto;
 }
-#blog-paragraph{
+
+#blog-div{
     display: flex;
+    justify-content: center;
+    border-bottom: solid black 1pt;
+    margin: auto;
+    padding: auto;
+    padding-bottom: 5pt;
+}
+
+
+p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    margin: 3px;
-    padding: 3px;
+    margin: auto;
+    padding: auto;
+    
 }
 #music-div{
     display: flex;
     justify-content: center;
+    margin: auto;
+    padding: auto;
+
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
