@@ -5,7 +5,7 @@ newHeader.textContent = `Harawiq Records`;
 newHeader.addEventListener("click", (event)=>{
     const newColor = window.prompt("What is your favorite color?").replace(/\s/g, '');
     newHeader.style.color = `${newColor}`;
-    setTimeout(()=>window.alert("You found the hidden feature, congratulations!"),3000)
+    setTimeout(()=>window.alert("You found the hidden feature, congratulations!"),2000)
 });
 
 
