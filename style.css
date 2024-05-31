@@ -1,51 +1,12 @@
-body{
-    background-color: rgb(170, 218, 182);
-}
-h1{
-    display: flex;
-    justify-content: center;
-}
-
-.blog-pic{
-    display: flex;
-    justify-content: center;
-    height: 60%;
-    width: 10%;
-    border: solid black 1pt;
-    border-radius: 50%;
-    margin: auto;
-    padding: auto;
-}
-
-#blog-div{
-    display: flex;
-    justify-content: center;
-    border-bottom: solid black 1pt;
-    margin: auto;
-    padding: auto;
-    padding-bottom: 5pt;
-}
-
-
-p{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.body-div{
+    display: grid;
     align-items: center;
-    margin: auto;
-    padding: auto;
-    
+    justify-items:center;
+    width: 100vh;
+    height: 100vh;
 }
-#music-div{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: auto;
-
-}
-.form{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
+img{
+    display: inline;
+    height: 20%;
+    width: 20%;
 }
