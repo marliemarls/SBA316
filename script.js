@@ -17,7 +17,7 @@ const linksArr = ["Home", "About", "Suggestions"]
 const navDiv = document.querySelector("nav");
 for(let i = 0; i < linksArr.length; i++){
     const newLink = document.createElement("a")
-    newLink.href = `/${linksArr[i]}`;
+    newLink.href = `/`;
     newLink.text = linksArr[i]
     navDiv.append(newLink)
 }
