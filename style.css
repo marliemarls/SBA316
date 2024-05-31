@@ -5,14 +5,13 @@
     width: 100vh;
     height: 100vh;
     margin: 0 auto;
+    border-radius: 1%;
 }
 img{
-    display: inline;
-    height: 20%;
-    width: 20%;
+    height: 30vh;
+    width: 20vh;
 }
 .photoParagraph{
-    display: flex;
     justify-content: center;
     align-items: center;
 }
