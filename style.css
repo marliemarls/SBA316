@@ -34,7 +34,7 @@ div#photo-cards-main{
 img{
     display: flex;
     height: 25vh;
-    width: 20vh;
+    width: 40vh;
     border-radius: 3%;
 }
 p#photo-paragraph{

@@ -14,8 +14,11 @@ newHeader.addEventListener("click", (event)=>{
 
 
 const photoParagraph = document.getElementById("photo-paragraph")
-photoParagraph.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+photoParagraph.innerText = "We Are Still Here, is a music video for the song written by artist, Bobby Sanchez. This short film features many other trans, Indigenous, Two-Spirit folks from Oakland, California. Filmed by Marlie Martinez."
 
+const secondPhotoCard = document.getElementsByClassName("2")
+secondPhotoCard
+const newEl = document.createElement("h1")
 
 
  
