@@ -33,7 +33,3 @@ goodByeHeader.addEventListener("click", (e) => {
     const question = prompt("What is your name?")
     goodByeHeader.innerText = `Hello ${question}!`
 })
-
-function navigateBetweenElems(){
-    const parentElem = document.get;
-}
