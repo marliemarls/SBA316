@@ -13,8 +13,14 @@ newHeader.addEventListener("click", (event)=>{
 
 const photoParagraph = document.getElementById("video-paragraph")
 photoParagraph.innerText = "We Are Still Here, is a music video for the song written by artist, Bobby Sanchez. This short film features many other trans, Indigenous, Two-Spirit folks from Oakland, California. Filmed by Marlie Martinez."
-
-const navDiv = document.getElementsByClassName("nav_and_header");
+const linksArr = ["Home", "About", "Suggestions"]
+const navDiv = document.querySelector("nav");
+for(let i = 0; i < linksArr.length; i++){
+    const newLink = document.createElement("a")
+    newLink.href = `/${linksArr[i]}`;
+    newLink.text = linksArr[i]
+    navDiv.append(newLink)
+}
 
 
 // createNavBar(navDiv)
@@ -30,4 +36,6 @@ goodByeHeader.addEventListener("click", (e) => {
     goodByeHeader.innerText = `Hello ${question}!`
 })
 
- 
+function navigateBetweenElems(){
+    const parentElem = document.get;
+}

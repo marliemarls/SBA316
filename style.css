@@ -1,5 +1,6 @@
 body{
     display: flex;
+    flex-direction: column;
     background-image: url(images/pexels-pixabay-534283.jpg);
     background-size:cover;
 }
@@ -45,10 +46,6 @@ p{
     padding: 10px;
 }
 
-h1{
-    background-color: aliceblue;
-    border-radius: 3pt;
-}
 div.music-div{
     display: flex;
     flex-direction: column;
@@ -65,4 +62,20 @@ form.forms{
     margin: 20pt;
     padding: 20pt;
 
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.nav_and_header{
+    display: flex;
+    flex-direction: column;
+    border: solid black 1pt;
+    box-shadow: 30%;
+    border-radius: ;
+    background-color: aliceblue;
 }
