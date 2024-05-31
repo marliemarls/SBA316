@@ -47,16 +47,22 @@ p{
 
 h1{
     background-color: aliceblue;
-    border-radius: 2pt;
+    border-radius: 3pt;
 }
 div.music-div{
     display: flex;
-}
-div.form{
-    display: flex;
     flex-direction: column;
-    background-color: aliceblue;
+    align-items: center;
     margin: 10pt;
     padding: 10pt;
+    background-color: aliceblue;
+    border-radius: 5pt;
+}
+form.forms{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    margin: 20pt;
+    padding: 20pt;
 
 }
