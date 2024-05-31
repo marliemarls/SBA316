@@ -1,3 +1,7 @@
+body{
+    background-image: url(images/pexels-pixabay-534283.jpg);
+    background-size:cover;
+}
 .body-div{
     display: grid;
     align-items: center;
@@ -5,7 +9,8 @@
     width: 100vh;
     height: 100vh;
     margin: 0 auto;
-    border-radius: 1%;
+    /* border-radius: 1%; */
+    /* background-color:whitesmoke; */
 }
 img{
     height: 30vh;
