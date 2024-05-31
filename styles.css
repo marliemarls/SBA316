@@ -1,0 +1,12 @@
+.body-div{
+    display: grid;
+    align-items: center;
+    justify-items:center;
+    width: 100vh;
+    height: 100vh;
+}
+img{
+    display: inline;
+    height: 20%;
+    width: 20%;
+}
