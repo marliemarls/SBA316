@@ -3,7 +3,7 @@
 ## About The Project
  `marliemarls`, `SBA316`, `https://www.linkedin.com/in/marliemart/`, `https://github.com/marliemarls/SBA316`, `SBA316`, `Class project built with HTML, CSS & JavaScript`
 
-This is my submission for my SBA 316. 
+This is my submission for my SBA 316. Here is the [Link] for your convenience. 
 
 ## Technology Stack
 
@@ -34,3 +34,4 @@ This is a set of instructions on setting up this project locally. To get a local
 [JS]: https://www.javascript.com/
 [CSS]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [VSCode]: https://code.visualstudio.com/
+[Link]: https://main--sba316.netlify.app/
