@@ -18,11 +18,16 @@ const navDiv = document.getElementsByClassName("nav_and_header");
 
 
 // createNavBar(navDiv)
-const forms = document.getElementsByTagName("form");
-console.log(forms)
-// forms.addEventListener("submit", (e) => {
-//     console.log(e)
-// })
+const form = document.querySelector("form")
+form.addEventListener("submit", (event) => {
+    console.log(event)
+})
 
+const goodByeHeader = document.querySelector(".goodbye")
+goodByeHeader.addEventListener("click", (e) => {
+    if (!e) return;
+    const question = prompt("What is your name?")
+    goodByeHeader.innerText = `Hello ${question}!`
+})
 
  
